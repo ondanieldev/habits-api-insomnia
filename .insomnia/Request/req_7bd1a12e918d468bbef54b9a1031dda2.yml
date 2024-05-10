@@ -1,0 +1,30 @@
+_id: req_7bd1a12e918d468bbef54b9a1031dda2
+type: Request
+parentId: fld_cc6ac5cf9e39462cbb60388cdde0c9b4
+modified: 1715379333554
+created: 1714665767644
+url: "{{ _.api.url }}/v1/users/verify-email"
+name: Verify email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"token": "7aa598e2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1713845753596.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

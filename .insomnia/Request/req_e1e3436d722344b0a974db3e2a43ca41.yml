@@ -1,0 +1,32 @@
+_id: req_e1e3436d722344b0a974db3e2a43ca41
+type: Request
+parentId: fld_5852d1f65beb4ac0822003b1f0d96567
+modified: 1714695330934
+created: 1713053818167
+url: "{{ _.api.url }}/v1/appointments"
+name: Read appointment list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9e42209171ca4df8acb6abdf30583a2a
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_968853a6db484b24bc2c68c60168d99c
+    name: limit
+    value: "25"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712829454356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

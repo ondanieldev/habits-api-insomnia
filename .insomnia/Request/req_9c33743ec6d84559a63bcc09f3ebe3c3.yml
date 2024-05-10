@@ -1,0 +1,23 @@
+_id: req_9c33743ec6d84559a63bcc09f3ebe3c3
+type: Request
+parentId: fld_6d2a3af0734b4ee0bb7b48c2b9637554
+modified: 1714694495142
+created: 1713646529632
+url: "{{ _.api.url }}/v1/auth/sign-out"
+name: Sign Out
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712765893469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

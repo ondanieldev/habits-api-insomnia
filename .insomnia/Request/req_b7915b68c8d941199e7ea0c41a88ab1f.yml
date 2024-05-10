@@ -1,0 +1,32 @@
+_id: req_b7915b68c8d941199e7ea0c41a88ab1f
+type: Request
+parentId: fld_5852d1f65beb4ac0822003b1f0d96567
+modified: 1715379460502
+created: 1713053866119
+url: "{{ _.api.url }}/v1/appointments/9eb8bc60-99cb-46a3-bf73-2307822089b5"
+name: Update appointment
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "{% now 'iso-8601', '' %}",
+    	"name": "Meeting with Jane",
+    	"isCompleted": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712826277300.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

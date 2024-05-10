@@ -1,0 +1,24 @@
+_id: env_d6e46c53e5926bca2b22e4eaf72e1a79d5c2899a
+type: Environment
+parentId: wrk_7f44692bbaf14347ad30b0ed17aa8a78
+modified: 1715379367036
+created: 1712765821741
+name: Base Environment
+data:
+  api:
+    url: http://localhost:3000
+    email: ""
+    password: ""
+    token: "{% response 'body', 'req_a0613579cdc347bab33a08d592a69524',
+      'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - api
+  "&~|api":
+    - url
+    - email
+    - password
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1712765821741

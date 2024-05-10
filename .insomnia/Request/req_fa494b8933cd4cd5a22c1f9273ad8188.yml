@@ -1,0 +1,31 @@
+_id: req_fa494b8933cd4cd5a22c1f9273ad8188
+type: Request
+parentId: fld_5852d1f65beb4ac0822003b1f0d96567
+modified: 1715378735924
+created: 1713053545928
+url: "{{ _.api.url }}/v1/appointments"
+name: Create appointment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "{% now 'iso-8601', '' %}",
+    	"name": "Meeting with John"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712842162579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_e35050e9b48d44639371d3100cd5e62e
+type: Request
+parentId: fld_7fc8aecb5d234c0ebb3752a50504aec1
+modified: 1715379378923
+created: 1714776209078
+url: "{{ _.api.url }}/v1/users/email"
+name: Update email
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.api.email }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1714776209078
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

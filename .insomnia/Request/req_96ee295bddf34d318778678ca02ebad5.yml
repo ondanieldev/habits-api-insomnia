@@ -1,0 +1,31 @@
+_id: req_96ee295bddf34d318778678ca02ebad5
+type: Request
+parentId: fld_8b2bf49533ea4f9e92fda1b4c035d590
+modified: 1714695384148
+created: 1712870583200
+url: "{{ _.api.url }}/v1/tasks"
+name: Read task list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_839ba882432041e39ecde87ee5032cca
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_67be541320c04b97aeeb17237199ebd7
+    name: limit
+    value: "100"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712816746133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

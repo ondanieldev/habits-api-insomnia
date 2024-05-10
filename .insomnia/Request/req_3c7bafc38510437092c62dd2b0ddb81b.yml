@@ -1,0 +1,35 @@
+_id: req_3c7bafc38510437092c62dd2b0ddb81b
+type: Request
+parentId: fld_46a57711cddb4a08a6cb9a02c592df15
+modified: 1715379299928
+created: 1714571333415
+url: "{{ _.api.url }}/v1/users/preferences"
+name: Update user preferences
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"isNotificationEnabled": true,
+    	"isSoundEnabled": true
+    }
+parameters:
+  - id: pair_00af99018c834a0eb45623d30f9ec76a
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1710582413086
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

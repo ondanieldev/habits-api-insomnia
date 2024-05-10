@@ -1,0 +1,29 @@
+_id: req_5908657628634478ab3c9fb2015040fb
+type: Request
+parentId: fld_19cb5e7a644c425ea3d65a11f41f3e96
+modified: 1715379391147
+created: 1714691623095
+url: "{{ _.api.url }}/v1/users/reset-password/validate-token"
+name: Validate reset password token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.api.email }}",
+    	"token": "941ad4f7"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1714050736486.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

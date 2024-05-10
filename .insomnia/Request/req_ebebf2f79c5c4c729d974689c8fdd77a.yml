@@ -1,0 +1,30 @@
+_id: req_ebebf2f79c5c4c729d974689c8fdd77a
+type: Request
+parentId: fld_19cb5e7a644c425ea3d65a11f41f3e96
+modified: 1715379409259
+created: 1714691716687
+url: "{{ _.api.url }}/v1/users/reset-password"
+name: Reset password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.api.email }}",
+    	"password": "{{ _.api.password }}",
+    	"token": "941ad4f7"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1713948245041.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_be893af0e0c5422c920f9e87f9b29cb7
+type: Request
+parentId: fld_19cb5e7a644c425ea3d65a11f41f3e96
+modified: 1715379386847
+created: 1714681423242
+url: "{{ _.api.url }}/v1/users/reset-password/generate-token"
+name: Generate reset password token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.api.email }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1714255719376.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

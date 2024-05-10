@@ -1,0 +1,36 @@
+_id: req_801e3f7dba5f4cb9af1cf402b9c2898d
+type: Request
+parentId: fld_0d303b707c624e358b32484a56778233
+modified: 1714695376328
+created: 1713025866549
+url: "{{ _.api.url }}/v1/tasks/completed"
+name: Read completed task list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_26928837fcb64f3e82afc0c0511d9258
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_dbbff4af948e4ffe9eb7e04a911383fd
+    name: limit
+    value: "25"
+    description: ""
+  - id: pair_1b32554e40d34768b4615c7723a3e2bf
+    name: day
+    value: "13"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1713025822011
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

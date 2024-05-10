@@ -1,0 +1,17 @@
+_id: env_ff142fcd1c3d4783bac94c2f2a44edbc
+type: Environment
+parentId: env_d6e46c53e5926bca2b22e4eaf72e1a79d5c2899a
+modified: 1715379069098
+created: 1713572581468
+name: production
+data:
+  api:
+    url: https://habits-api.ondaniel.com.br
+dataPropertyOrder:
+  "&":
+    - api
+  "&~|api":
+    - url
+color: "#ff0000"
+isPrivate: false
+metaSortKey: 1713572581468

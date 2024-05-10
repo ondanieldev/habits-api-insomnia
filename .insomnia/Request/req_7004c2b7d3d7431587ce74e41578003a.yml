@@ -1,0 +1,33 @@
+_id: req_7004c2b7d3d7431587ce74e41578003a
+type: Request
+parentId: fld_0d303b707c624e358b32484a56778233
+modified: 1715379552449
+created: 1713025811895
+url: "{{ _.api.url }}/v1/tasks/completed"
+name: Create completed task
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"day": 1,
+    	"month": 4,
+    	"year": 2024,
+    	"taskId": "2ca44eb0-537f-4dae-bbe6-3f6bd3f9092d"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1713025822036
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

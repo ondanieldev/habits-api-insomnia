@@ -1,0 +1,23 @@
+_id: req_66a28e982800406c9a857372f131ac25
+type: Request
+parentId: fld_5852d1f65beb4ac0822003b1f0d96567
+modified: 1715379464767
+created: 1713053852452
+url: "{{ _.api.url }}/v1/appointments/9eb8bc60-99cb-46a3-bf73-2307822089b5"
+name: Delete appointment
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712823100244.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

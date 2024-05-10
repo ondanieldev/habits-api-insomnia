@@ -1,0 +1,34 @@
+_id: req_1adf50f827d048249f0034692d09c5c5
+type: Request
+parentId: fld_8b2bf49533ea4f9e92fda1b4c035d590
+modified: 1715379517748
+created: 1712870756876
+url: "{{ _.api.url }}/v1/tasks/8441969d-549f-47bf-ae0e-90da09dd85e7"
+name: Update task
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"daysOfWeek": [1, 2, 3, 4, 5, 6, 7],
+    	"kind": "habit",
+    	"name": "Wake up",
+    	"hours": 7,
+    	"minutes": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.api.token }}"
+metaSortKey: -1712816746083
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
